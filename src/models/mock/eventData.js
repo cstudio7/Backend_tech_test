@@ -2,7 +2,7 @@ const seedEvents = [
        {
          title: "Healthcare Track",
          description: "This session seeks to get people thinking about the ultimate objective of health AI",
-         category: "AI",
+         category: "React",
          date: "2021-07-17T10:00:00.000Z",
          isVirtual: false,
          address: "London, United Kingdom"
@@ -58,7 +58,7 @@ const seedEvents = [
     {
         title: "Designing To Last",
         description: "This session seeks to get people thinking about the ultimate objective of health with REACT",
-        category: "REACT",
+        category: "React",
         date: "2021-07-17T10:00:00.000Z",
         isVirtual: false,
         address: "London, United Kingdom"
@@ -122,7 +122,7 @@ const seedEvents = [
     {
         title: "Healthcare Track",
         description: "This session seeks to get people thinking about the ultimate objective of health with REACT",
-        category: "REACT",
+        category: "React",
         date: "2021-07-17T10:00:00.000Z",
         isVirtual: false,
         address: "London, United Kingdom"

@@ -35,7 +35,7 @@ export const getEvents = async (req, res) => {
 export const getEventByCategory = async (req,res) => {
   try{
     if(!req.query.category){
-      return getEvents()
+      return getEvents(req,res)
     }
 
     //set Pagination Parameters
