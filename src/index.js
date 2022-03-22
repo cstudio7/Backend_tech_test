@@ -28,5 +28,6 @@ export const start = async () => {
         console.error(e);
     }
 };
+start()
+export default app;
 
-start();

@@ -1,7 +1,7 @@
 {
   "name": "fig_financetest",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/cstudio7/fig_financetest.git",
   "author": "cstudio7 <conquerorsword36@yahoo.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "coveralls-coverage": "coveralls < lcov.info",
     "codeclimate-coverage": "codeclimate-test-reporter < lcov.info",
     "coverage": "nyc npm test && npm run generate-lcov && npm run coveralls-coverage",
-    "dev": "NODE_ENV=development nodemon --exec babel-node ./src/index.js",
+    "dev": "NODE_ENV=development nodemon --exec babel-node src/index.js",
     "db-seed": "babel-node ./src/models/seed/seedEvents.js"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "@babel/core": "^7.17.8",
     "@babel/node": "^7.16.8",
     "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.16.11",
     "@babel/runtime": "^7.17.8",
     "babel-plugin-module-resolver": "^4.1.0",
