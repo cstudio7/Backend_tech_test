@@ -53,7 +53,6 @@ export const getEventByCategory = async (req,res) => {
         .limit(limit)
         .skip(skipIndex)
 
-
     if(event){
       return res.status(200).send({
         event: event,
