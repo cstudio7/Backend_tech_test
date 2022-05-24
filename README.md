@@ -23,3 +23,13 @@ Use this to run the test
 PORT=
 DB_URL=
 
+
+## Hosted
+The Project was hosted on Heroku and the Endpoint is https://fig-finance.herokuapp.com
+
+## Routes
+ Get Events    - https://fig-finance.herokuapp.com/events?page=${page}&limit=${limit}
+
+ Search Events - https://fig-finance.herokuapp.com/event/category?category=${search}
+
+
